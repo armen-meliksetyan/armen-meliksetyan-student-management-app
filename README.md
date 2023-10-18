@@ -2,23 +2,33 @@
 
 A full-stack web application for managing student information, built with React, Laravel, and a SQL database.
 
+## Official Documentation
+
+For in-depth information and detailed documentation, please refer to the official documentation for each part of the project:
+
+- [React (Frontend) Documentation](https://legacy.reactjs.org/docs/getting-started.html)
+- [Laravel (Backend) Documentation](https://laravel.com/docs/10.x/installation)
+- [MySQL (Database service)](https://dev.mysql.com/doc/)
+
+The official documentation provides extensive guidance on using and developing with React and Laravel, including advanced features, best practices, and examples.
+
+
 ## Table of Contents
 - [Overview](#overview)
 - [Features](#features)
 - [Installation](#installation)
   - [Frontend (React)](#frontend-react)
+  - [Database (MySQL)](#database-mysql)
   - [Backend (Laravel)](#backend-laravel)
 - [Usage](#usage)
-- [Contributing](#contributing)
 
 ## Overview
 The Student Management App is designed to help educational institutions manage and track student information efficiently. It consists of two main components: the frontend, built with React, and the backend, developed with Laravel. This README provides information on how to set up and run the application.
 
 ## Features
-- Add, edit, and delete student records.
+- Add, view, edit, and delete student records.
 - View a list of all students and their details.
-- Search and filter students based on various criteria.
-- User authentication and access control.
+- Search and filter students based on their full name.
 - Secure and efficient storage of student data in a SQL database.
 
 ## Installation
@@ -39,6 +49,73 @@ The Student Management App is designed to help educational institutions manage a
    ```
 
 4. The React app should now be running on `http://localhost:3000`. You can access it in your web browser.
+
+
+### Database (MySQL)
+Below are instructions on how to run a MySQL server on different operating systems:
+
+<details>
+  <summary style="color: blue;">Running MySQL Server on Windows</summary>
+
+  ### Windows (Using XAMPP)
+
+  1. **Download XAMPP**: Visit the [XAMPP download page](https://www.apachefriends.org/) and download the XAMPP installer for Windows.
+
+  2. **Run the Installer**: Execute the downloaded installer and follow the installation wizard's instructions. You can select the components you need, including the MySQL server.
+
+  3. **Start MySQL Server**: After installation, open the XAMPP Control Panel, and from there, start the MySQL server.
+
+</details>
+
+<details>
+  <summary>Running MySQL Server on macOS</summary>
+
+  ### macOS (Using MAMP)
+
+  1. **Download and Install MAMP**: Visit the [MAMP website](https://www.mamp.info/en/) and download MAMP. Install it by following the installation instructions.
+
+  2. **Start MAMP**: Open MAMP and click the "Start Servers" button to start the MySQL server.
+
+  ### macOS (Using Homebrew)
+
+  1. **Install Homebrew**: If you don't have Homebrew installed, follow the [Homebrew installation instructions](https://brew.sh/) to set it up.
+
+  2. **Install MySQL**: Run the following command to install MySQL using Homebrew:
+     ```sh
+     brew install mysql
+     ```
+
+  3. **Start MySQL Server**: Once installation is complete, you can start the MySQL server with:
+     ```sh
+     brew services start mysql
+     ```
+
+</details>
+
+<details>
+  <summary>Running MySQL Server on Linux</summary>
+
+  ### Linux (Ubuntu)
+
+  1. **Update Package Lists**: Open a terminal and update your package lists:
+     ```sh
+     sudo apt update
+     ```
+
+  2. **Install MySQL Server**: Install the MySQL server package:
+     ```sh
+     sudo apt install mysql-server
+     ```
+
+  3. **Start MySQL Server**: After installation, you can start the MySQL server and enable it to run on system boot:
+     ```sh
+     sudo systemctl start mysql
+     sudo systemctl enable mysql
+     ```
+
+</details>
+Please note that these are general instructions, and you may need to adjust them depending on your specific requirements and system configuration.
+
 
 ### Backend (Laravel)
 1. Navigate to the backend directory:
@@ -94,13 +171,5 @@ The Student Management App is designed to help educational institutions manage a
 ## Usage
 1. Access the frontend application at `http://localhost:3000` in your web browser.
 2. Use the app to manage student records, search for students, and more.
-
-## Contributing
-Contributions are welcome! If you want to contribute to this project, please follow these steps:
-1. Fork the repository.
-2. Create a new branch for your feature or bug fix.
-3. Make your changes and commit them.
-4. Push your changes to your fork.
-5. Create a pull request to the main repository.
 
 
