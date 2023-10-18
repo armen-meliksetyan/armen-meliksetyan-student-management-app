@@ -6,7 +6,7 @@ A full-stack web application for managing student information, built with React,
 
 For in-depth information and detailed documentation, please refer to the official documentation for each part of the project:
 
-- [React (Frontend) Documentation](https://legacy.reactjs.org/docs/getting-started.html)
+- [React (Frontend) Documentation](https://react.dev/)
 - [Laravel (Backend) Documentation](https://laravel.com/docs/10.x/installation)
 - [MySQL (Database service)](https://dev.mysql.com/doc/)
 
@@ -35,6 +35,10 @@ The Student Management App is designed to help educational institutions manage a
 ### Frontend (React)
 
 <img src="https://miro.medium.com/v2/resize:fit:1400/0*EitUXT-pqbaQSCTt.gif" width="400" alt="Alt Text">
+
+> :warning: **Note:** You need to have [Node.js](https://nodejs.org/en) installed for running and local development.
+
+
 
 1. Navigate to the frontend directory:
    ```bash
@@ -130,6 +134,9 @@ Please note that these are general instructions, and you may need to adjust them
 ### Backend (Laravel)
 
 <img src="https://assets-v2.lottiefiles.com/a/639784ea-1171-11ee-aea8-735bf223615c/IyZGK6hpdA.gif" width="300" alt="Alt Text">
+
+> :warning: **Note:** You need to have [Composer](https://getcomposer.org/) installed for running and local development.
+
 
 1. Navigate to the backend directory:
    ```bash
