@@ -33,6 +33,9 @@ The Student Management App is designed to help educational institutions manage a
 
 ## Installation
 ### Frontend (React)
+
+<img src="https://miro.medium.com/v2/resize:fit:1400/0*EitUXT-pqbaQSCTt.gif" width="400" alt="Alt Text">
+
 1. Navigate to the frontend directory:
    ```bash
    cd frontend
@@ -52,10 +55,14 @@ The Student Management App is designed to help educational institutions manage a
 
 
 ### Database (MySQL)
-Below are instructions on how to run a MySQL server on different operating systems:
+<img src="https://media2.giphy.com/media/vISmwpBJUNYzukTnVx/giphy.gif" width="400" alt="Alt Text">
+
+#### Below are instructions on how to run a MySQL server on different operating systems👇:
+
+<br>
 
 <details>
-  <summary style="color: blue;">Running MySQL Server on Windows</summary>
+  <summary>Running MySQL Server on Windows</summary>
 
   ### Windows (Using XAMPP)
 
@@ -114,10 +121,16 @@ Below are instructions on how to run a MySQL server on different operating syste
      ```
 
 </details>
+
+<br>
+
 Please note that these are general instructions, and you may need to adjust them depending on your specific requirements and system configuration.
 
 
 ### Backend (Laravel)
+
+<img src="https://assets-v2.lottiefiles.com/a/639784ea-1171-11ee-aea8-735bf223615c/IyZGK6hpdA.gif" width="300" alt="Alt Text">
+
 1. Navigate to the backend directory:
    ```bash
    cd backend
@@ -172,4 +185,5 @@ Please note that these are general instructions, and you may need to adjust them
 1. Access the frontend application at `http://localhost:3000` in your web browser.
 2. Use the app to manage student records, search for students, and more.
 
+![Yes GIF](https://media.giphy.com/media/3oz8xTNxIYYo7sblK0/giphy.gif)
 
