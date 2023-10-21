@@ -2,6 +2,8 @@
 
 A full-stack web application for managing student information, built with React, Laravel, and a SQL database.
 
+![3383792_57297-min](https://github.com/armen-meliksetyan/armen-meliksetyan-student-management-app/assets/77900433/8a5493a9-7fc0-4b85-873b-00a1d9c7215d)
+
 ## Official Documentation
 
 For in-depth information and detailed documentation, please refer to the official documentation for each part of the project:
@@ -23,7 +25,7 @@ The official documentation provides extensive guidance on using and developing w
 - [Usage](#usage)
 
 ## Overview
-The Student Management App is designed to help educational institutions manage and track student information efficiently. It consists of two main components: the frontend, built with React, and the backend, developed with Laravel. This README provides information on how to set up and run the application.
+The Student Management App consists of two main components: the frontend, built with React, and the backend, developed with Laravel. This README provides information on how to set up and run the application.
 
 ## Features
 - Add, view, edit, and delete student records.
