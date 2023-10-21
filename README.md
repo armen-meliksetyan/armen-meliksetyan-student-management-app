@@ -2,7 +2,7 @@
 
 A full-stack web application for managing student information, built with React, Laravel, and a SQL database.
 
-![3383792_57297-min](https://github.com/armen-meliksetyan/armen-meliksetyan-student-management-app/assets/77900433/8a5493a9-7fc0-4b85-873b-00a1d9c7215d)
+![picture-min](https://github.com/armen-meliksetyan/armen-meliksetyan-student-management-app/assets/77900433/1fd7cf84-a3b5-407f-ad14-1f10dcdc49e7)
 
 ## Official Documentation
 
